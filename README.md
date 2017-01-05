@@ -15,4 +15,4 @@ git subtree pull --prefix=src TCLAP master
 ```
 
 # License
-The code contained in this repository is covered by the license contained in the [LICENSE}(LICENSE) file.
+The code contained in this repository is covered by the license contained in the [LICENSE](LICENSE) file. The code in the `src` directory is covered by its own [LICENSE](src/COPYING).
