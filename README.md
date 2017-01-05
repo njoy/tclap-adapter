@@ -13,3 +13,6 @@ git remote add TCLAP https://github.com/TCLAP/tclap.git
 # Do this when you need to update the subtree
 git subtree pull --prefix=src TCLAP master
 ```
+
+# License
+The code contained in this repository is covered by the license contained in the [LICENSE}(LICENSE) file.
