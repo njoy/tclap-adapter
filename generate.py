@@ -1,4 +1,4 @@
-#! /usr/bin/env python3
+#! /usr/bin/env python
 
 import sys
 
@@ -9,7 +9,8 @@ import metaconfigure.cmake as cmake
 
 previous = description.deserialize()
 
-description.generate( **previous )
+if previous['update']:
+    description.generate( **previous )
 
 if sys.argv[1] == 'cmake':
     cmake.generate()
